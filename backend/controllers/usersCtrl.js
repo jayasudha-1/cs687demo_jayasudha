@@ -1,8 +1,9 @@
+require("dotenv").config(); // To load environment variables
 const asyncHandler = require("express-async-handler");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const User = require("../model/User");
-require("dotenv").config(); // To load environment variables
+
 
 //!User Registration
 const usersController = {

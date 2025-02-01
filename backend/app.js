@@ -6,7 +6,6 @@ const cors = require("cors");
 const userRouter = require("./routes/userRouter");
 const categoryRouter = require("./routes/categoryRouter");
 const transactionRouter = require("./routes/transactionRouter");
-//const chatRouter = require("./routes/chatRouter"); // Import chatbot route
 const errorHandler = require("./middlewares/errorHandlerMiddleware");
 
 const app = express();
@@ -19,7 +18,7 @@ mongoose
 
 //! CORS configuration
 const corsOptions = {
-  origin: ["http://localhost:5173"], // Allow requests from frontend
+  origin: '*',
   methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"], // Allowed methods
   allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   credentials: true, // Allow credentials (cookies, etc.)
@@ -33,7 +32,6 @@ app.use(express.json()); // Parse incoming JSON data
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/categories", categoryRouter);
 app.use("/api/v1/transactions", transactionRouter);
-//app.use("/api/v1/chat", chatRouter); // Add chatbot route
 
 //! Error handler
 app.use(errorHandler);
