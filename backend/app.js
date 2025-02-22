@@ -9,6 +9,7 @@ const transactionRouter = require("./routes/transactionRouter");
 const errorHandler = require("./middlewares/errorHandlerMiddleware");
 
 const app = express();
+const chatRoutes = require("./routes/chatRoutes");
 
 //! Connect to MongoDB
 mongoose
@@ -18,7 +19,7 @@ mongoose
 
 //! CORS configuration
 const corsOptions = {
-  origin: '*',
+  origin: ["http://localhost:5173"], // Allow requests from frontend
   methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"], // Allowed methods
   allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   credentials: true, // Allow credentials (cookies, etc.)
@@ -32,7 +33,7 @@ app.use(express.json()); // Parse incoming JSON data
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/categories", categoryRouter);
 app.use("/api/v1/transactions", transactionRouter);
-
+app.use("/chat", chatRoutes);
 //! Error handler
 app.use(errorHandler);
 

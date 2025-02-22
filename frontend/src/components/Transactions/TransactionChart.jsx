@@ -5,7 +5,6 @@ import { Doughnut, Bar } from "react-chartjs-2";
 import { listTransactionsAPI } from "../../services/transactions/transactionService";
 
 ChartJS.register(ArcElement, Tooltip, Legend, BarElement, CategoryScale, LinearScale);
-
 const TransactionChart = () => {
   const { data: transactions, isError, isLoading } = useQuery({
     queryFn: listTransactionsAPI,
@@ -48,7 +47,9 @@ const TransactionChart = () => {
     return acc;
   }, {}) || {};
 
-  const months = Object.keys(monthlyData);
+  // Sort months in chronological order
+  const monthsOrder = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const months = monthsOrder.filter(month => monthlyData[month]);
   const incomeValues = months.map(month => monthlyData[month].income);
   const expenseValues = months.map(month => monthlyData[month].expense);
 
@@ -112,5 +113,4 @@ const TransactionChart = () => {
     </div>
   );
 };
-
 export default TransactionChart;

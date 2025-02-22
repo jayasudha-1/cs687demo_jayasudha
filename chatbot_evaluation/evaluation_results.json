@@ -1,0 +1,58 @@
+[
+    {
+        "question": "What is the 50/30/20 rule?",
+        "answer": "Follow the 50/30/20 rule: Spend 50% on needs, 30% on wants, and save 20%.",
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9617023642722282
+    },
+    {
+        "question": "How can I create a budget?",
+        "answer": "Create a budget and stick to it: Determine your income and expenses, and create a plan for how much you will spend in each category. Try to minimize unnecessary spending and find ways to cut costs where possible.",
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8795238684978134
+    },
+    {
+        "question": "How can I increase my savings rate?",
+        "answer": "Increase your savings rate: Aim to save at least 20% of your income. If that's not feasible, start small by saving even $5 or $10 per paycheck.",
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9090992843699776
+    },
+    {
+        "question": "How can I automate my savings?",
+        "answer": "Automate your savings: Set up automatic transfers from your checking account to your savings account each month. This makes it easier to save consistently and reduces the temptation to spend the money.",
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8808363957574993
+    },
+    {
+        "question": "How much should I save for emergencies?",
+        "answer": "An emergency fund is a savings buffer set aside for unexpected expenses such as medical bills, car repairs, or job loss. It\u2019s typically recommended to have 3 to 6 months' worth of living expenses saved up.",
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9311734839872111
+    },
+    {
+        "question": "How can I avoid debt?",
+        "answer": "Avoid debt: Try to pay off any existing debts as quickly as possible, and avoid taking on new debt whenever possible.",
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9102069071375437
+    },
+    {
+        "question": "How can I invest wisely?",
+        "answer": "Invest wisely: Consider investing a portion of your savings in stocks, bonds, or mutual funds to grow your wealth over time. Work with a financial advisor to create an investment plan that fits your goals and risk tolerance.",
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9054403430095107
+    }
+]

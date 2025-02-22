@@ -1,0 +1,44 @@
+[
+    {
+      "question": "What is the 50/30/20 rule?",
+      "answer": "Follow the 50/30/20 rule: Spend 50% on needs, 30% on wants, and save 20%.",
+      "context": "Follow the 50/30/20 rule: Spend 50% on needs, 30% on wants, and save 20%.",
+      "ground_truth": "The 50/30/20 rule is a budgeting guideline where you allocate 50% of your income to needs, 30% to wants, and 20% to savings."
+    },
+    {
+      "question": "How can I create a budget?",
+      "answer": "Create a budget and stick to it: Determine your income and expenses, and create a plan for how much you will spend in each category. Try to minimize unnecessary spending and find ways to cut costs where possible.",
+      "context": "Create a budget and stick to it: Determine your income and expenses, and create a plan for how much you will spend in each category. Try to minimize unnecessary spending and find ways to cut costs where possible.",
+      "ground_truth": "To create a budget, list your monthly income and expenses, then allocate funds for each category based on priorities. Minimize unnecessary spending and find ways to cut costs."
+    },
+    {
+      "question": "How can I increase my savings rate?",
+      "answer": "Increase your savings rate: Aim to save at least 20% of your income. If that's not feasible, start small by saving even $5 or $10 per paycheck.",
+      "context": "Increase your savings rate: Aim to save at least 20% of your income. If that's not feasible, start small by saving even $5 or $10 per paycheck.",
+      "ground_truth": "To increase your savings rate, aim to save at least 20% of your income. If that's not possible, start small by saving $5 or $10 per paycheck."
+    },
+    {
+      "question": "How can I automate my savings?",
+      "answer": "Automate your savings: Set up automatic transfers from your checking account to your savings account each month. This makes it easier to save consistently and reduces the temptation to spend the money.",
+      "context": "Automate your savings: Set up automatic transfers from your checking account to your savings account each month. This makes it easier to save consistently and reduces the temptation to spend the money.",
+      "ground_truth": "Automate your savings by setting up automatic transfers from your checking account to your savings account each month. This ensures consistent savings and reduces spending temptations."
+    },
+    {
+      "question": "How much should I save for emergencies?",
+      "answer": "An emergency fund is a savings buffer set aside for unexpected expenses such as medical bills, car repairs, or job loss. It’s typically recommended to have 3 to 6 months' worth of living expenses saved up.",
+      "context": "Make a plan for unexpected expenses: Set aside an emergency fund to cover at least 3-6 months of living expenses in case of unexpected events such as job loss or medical emergencies.",
+      "ground_truth": "You should save at least 3-6 months' worth of living expenses in an emergency fund to cover unexpected events like job loss or medical emergencies."
+    },
+    {
+      "question": "How can I avoid debt?",
+      "answer": "Avoid debt: Try to pay off any existing debts as quickly as possible, and avoid taking on new debt whenever possible.",
+      "context": "Avoid debt: Try to pay off any existing debts as quickly as possible, and avoid taking on new debt whenever possible.",
+      "ground_truth": "To avoid debt, pay off existing debts quickly and avoid taking on new debt whenever possible."
+    },
+    {
+      "question": "How can I invest wisely?",
+      "answer": "Invest wisely: Consider investing a portion of your savings in stocks, bonds, or mutual funds to grow your wealth over time. Work with a financial advisor to create an investment plan that fits your goals and risk tolerance.",
+      "context": "Invest wisely: Consider investing a portion of your savings in stocks, bonds, or mutual funds to grow your wealth over time. Work with a financial advisor to create an investment plan that fits your goals and risk tolerance.",
+      "ground_truth": "To invest wisely, consider diversifying your investments across stocks, bonds, or mutual funds. Work with a financial advisor to create a plan that aligns with your goals and risk tolerance."
+    }
+]
